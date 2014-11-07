@@ -58,9 +58,12 @@ body {
 	padding: 0;
 }
 
+.view .container {
+    background: none;
+}
+
 .logo {
-	margin: 40px 0;
-	padding: 0 7%;
+	margin: 0px 0;
 }
 
 h1 {
