@@ -15,7 +15,7 @@ body {
 }
 
 .navbar {
-	opacity: 0.8;
+    background-color: rgba(34,34,34,0.8);
 	height: 45px;
 }
 
@@ -34,7 +34,8 @@ body {
 }
 
 .view {
-    background-image: url("../img/04.jpg")
+    background-image: url("../img/04.jpg");
+    margin-bottom: -5px;
 }
 
 .who {
@@ -71,11 +72,12 @@ h1 {
 	font-size: 40px;
 	padding: 15px 0;
 	color: #045973;
+    margin-top: 10px;
 }
 
 .text {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 1.9em;
 	margin: 30px 50px;
     color: #404041;
@@ -89,4 +91,25 @@ h1 {
 	width: 100%;
 	height: 350px;
     margin-bottom: 30px;
+}
+
+button {
+
+}
+
+
+
+.navbar-brand {
+    opacity: 1 !important;
+}
+
+.navbar-brand img {
+    height: 45px;
+    margin-top: -11px;
+    opacity: 1 !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: rgba(38,38,38,0.6);
+    border-color: rgba(38,38,38,1);
 }
