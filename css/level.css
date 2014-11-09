@@ -91,8 +91,18 @@ h1 {
     width: 100%;
     z-index: 100;
 }
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.navibar a {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
 .navi-toggle {
     border-color: transparent !important;
+}
+ul.nav {
+    margin-top: 0 !important;
 }
 .icon-bar {
     background-color: #fff;
