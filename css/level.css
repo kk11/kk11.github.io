@@ -22,10 +22,6 @@ body {
 	width: 100%;
 }
 
-.where.content {
-    padding-bottom: 320px;
-}
-
 .view {
     background-image: url("../img/04.jpg");
 }
@@ -55,6 +51,10 @@ body {
     background: none;
 }
 
+.blank {
+    background-color: #fff;
+}
+
 .logo {
 	margin: 0px 0;
 }
@@ -75,8 +75,16 @@ h1 {
     color: #404041;
 }
 
+.who img {
+    margin: 20px auto 0 auto;
+}
+
+.with img {
+    margin: 0 auto 30px auto;
+}
+
 .iframe {
-	margin: 30px 50px;
+	margin: 0 50px;
 }
 
 #map {
@@ -118,10 +126,8 @@ h1 {
 
 .footer {
     background-color: rgba(0,0,0,0.8);
-    position: absolute;
-    width: 100%;
+    margin: 0 auto;
     height:320px;
-    bottom: 0;
     z-index: 1000;
     padding-bottom: 15px;
 }
