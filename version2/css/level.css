@@ -93,7 +93,8 @@ h1 {
 }
 
 .nbar img {
-    margin: auto;
+    margin: 5px auto;
+    height: 40px;
 }
 
 .nbar button {
@@ -105,6 +106,7 @@ h1 {
 .navibar {
     background-color:  rgba(0,0,0,0.8);
     position: fixed;
+    height: 50px;
     top: 0;
     width: 100%;
     z-index: 100;
