@@ -23,6 +23,7 @@ body {
 }
 
 .view {
+    background-size: cover;
     background-image: url("../img/A1.jpg");
 }
 
@@ -31,6 +32,7 @@ body {
 }
 
 .what {
+    background-size: cover;
 	background-image: url("../img/A3.jpg");
 }
 
