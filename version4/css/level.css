@@ -23,23 +23,23 @@ body {
 }
 
 .view {
-    background-image: url("../img/D1.jpg");
+    background-image: url("../img/D1.JPG");
 }
 
 .who {
-	background-image: url("../img/D2.jpg");
+	background-image: url("../img/D2.JPG");
 }
 
 .what {
-	background-image: url("../img/D3.jpg");
+	background-image: url("../img/D3.JPG");
 }
 
 .with {
-    background-image: url('../img/D4.jpg')
+    background-image: url('../img/D4.JPG')
 }
 
 .where {
-    background-image: url('../img/D5.jpg')
+    background-image: url('../img/D5.JPG')
 }
 
 .container {
