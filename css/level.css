@@ -71,9 +71,14 @@ h1 {
 .who img {
     margin: 20px auto 0 auto;
 }
-.what .video,
-.carousel {
+.what .video{
     margin: 0 5% 50px 5%;
+}
+.carousel {
+    margin: 0 0 50px 0;
+}
+.container * {
+    margin-left, margin-right: 5%;
 }
 .carousel {
     max-height:460px;
