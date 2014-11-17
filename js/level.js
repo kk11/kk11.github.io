@@ -38,7 +38,6 @@ function initMap() {
 function initPan() {
     var panCode = "ymxbLd5mMhUAAAQIuBgD2w";
     var panCanvas = document.getElementById('pan');
-    console.log(panCanvas);
     var panOptions = {
         pano: panCode
     };
