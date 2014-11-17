@@ -35,6 +35,16 @@ function initMap() {
     info.open(map, marker);
 }
 
+function initPan() {
+    var panCode = "ymxbLd5mMhUAAAQIuBgD2w";
+    var panCanvas = document.getElementById('pan');
+    console.log(panCanvas);
+    var panOptions = {
+        pano: panCode
+    };
+    var photoSphere = new google.maps.StreetViewPanorama(panCanvas, panOptions);
+}
+
 function initNav(scroll) {
     if (scroll > 200) {
         if (!($('#navbar').hasClass('in'))) {
@@ -49,6 +59,8 @@ function initNav(scroll) {
 
 google.maps.event.addDomListener(window, 'load', initMap);
 google.maps.event.addDomListener(window, 'resize', initMap);
+google.maps.event.addDomListener(window, 'load', initPan);
+google.maps.event.addDomListener(window, 'resize', initPan);
 
 $(document).ready(function () {
     $('#navigation').collapse({
