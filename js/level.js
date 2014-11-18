@@ -61,6 +61,11 @@ google.maps.event.addDomListener(window, 'resize', initMap);
 google.maps.event.addDomListener(window, 'load', initPan);
 google.maps.event.addDomListener(window, 'resize', initPan);
 
+function media() {
+    var width = ($('.workers').width()) * 0.25;
+    $('.sidepic').css('min-width', width);
+}
+
 $(document).ready(function () {
     $('#navigation').collapse({
         toggle: false
@@ -124,4 +129,20 @@ $(document).ready(function () {
             $('#navigation-menu').removeClass('trans')
         });
     });
+    //End Nav//
+
+
+    //Resize media//
+    media();
 });
+
+$(window).resize(function () {
+    media();
+});
+
+
+//Has Flash?//
+if (!((typeof navigator.plugins != "undefined" && typeof navigator.plugins["Shockwave Flash"] == "object") || (window.ActiveXObject && (new ActiveXObject("ShockwaveFlash.ShockwaveFlash")) != false))) {
+    $('.video .embed-responsive').css('display', 'none');
+    $('.video .hidden').css('display', 'block');
+}
