@@ -25,22 +25,6 @@
     background-position: center;
     width: 100%;
 }
-.view {
-    background-image: url("../img/C1.jpg");
-}
-.who {
-    background-image: url("../img/C2.jpg");
-}
-.what {
-    background-image: url("../img/C3.jpg");
-}
-.with {
-    background-image: url('../img/C4.jpg');
-}
-.where,
-.contact {
-    background-image: url('../img/C5.jpg');
-}
 .container {
     background-color: #FFF;
     padding: 0;
@@ -57,7 +41,6 @@
 }
 h1 {
     font-family: 'Rokkitt', serif;
-    font-size: 57px;
     padding: 0;
     color: #4C4C4E;
     margin: 50px 0 20px 0;
@@ -141,7 +124,6 @@ h2 {
     margin: 0;
     padding-top: 30px;
     color: #fff;
-    font-size: 38px;
     font-family: "Rokkitt", serif;
 }
 p {
@@ -201,14 +183,6 @@ h3 {
     font-size: 17px;
     margin-bottom, margin-top: 0;
 }
-@media (max-width: 450px) {
-    h1 {
-        font-size: 45px;
-    }
-    h2 {
-        font-size: 30px;
-    }
-}
 .hidd {
     display: none;
 }
@@ -220,4 +194,39 @@ h3 {
     line-height: 1.9em;
     color: #404041;
     margin-top:20px;
+}
+@media (min-width: 768px) { 
+    .view {
+        background-image: url("../img/C1.jpg");
+    }
+    .who {
+        background-image: url("../img/C2.jpg");
+    }
+    .what {
+        background-image: url("../img/C3.jpg");
+    }
+    .with {
+        background-image: url('../img/C4.jpg');
+    }
+    .where,
+    .contact {
+        background-image: url('../img/C5.jpg');
+    }
+    h1 {
+        font-size: 57px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+}
+@media (max-width: 450px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    body {
+        background-image: url("../img/C1.jpg");
+    }
 }
