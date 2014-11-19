@@ -8,7 +8,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
  body {
     position: relative;
-    margin: 0;
+    margin: 0 0 -15px 0;
 }
 .navbar {
     background-color: rgba(34, 34, 34, 0.8);
@@ -163,17 +163,23 @@ p {
 }
 .workers {
     margin-top: 70px;
+    margin-bottom: -50px;
 }
 .workers > div {
     margin: 0;
+    padding: 0 3%;
 }
 .gray {
     background-color: #F2F2F2;
 }
+.sidepic {
+    height: 300px;
+}
 .pic {
     position: absolute;
-    margin: auto;
-    top: 100px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
     border-radius: 50%;
     overflow: hidden;
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -219,4 +225,5 @@ h3 {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.9em;
     color: #404041;
+    margin-top:20px;
 }
