@@ -68,13 +68,13 @@ h1 {
     height: 558px;
 }
 .carousel-indicators.gr > li {
-    border-color: #333;
+    border-color: #CCC;
 }
 .carousel-indicators.gr > li.active {
-    background-color: #333;
+    background-color: #CCC;
 }
 .carousel-control.gr, .carousel-control.gr:hover {
-    color: #333;
+    color: #CCC;
     background: none !important;
     opacity: 1;
 }
