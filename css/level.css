@@ -61,17 +61,17 @@ h1 {
     margin: 0 0 50px 0;
 }
 .carousel {
-    height: 450px;
+    max-height: 450px;
     overflow: hidden;
 }
 .carousel.gr {
-    height: 558px;
+    max-height: 558px;
 }
 .carousel-indicators.gr > li {
-    border-color: #CCC;
+    border-color: #333;
 }
 .carousel-indicators.gr > li.active {
-    background-color: #CCC;
+    background-color: #333;
 }
 .carousel-control.gr, .carousel-control.gr:hover {
     color: #CCC;
