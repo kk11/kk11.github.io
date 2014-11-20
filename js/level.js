@@ -1,9 +1,3 @@
-/*!
- * Level - Recording Studio (link)
- * Design by André Sontag Artigas
- * Code by Kevin Katzer
- */
-
 function initMap() {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
