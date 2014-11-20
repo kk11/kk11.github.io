@@ -64,13 +64,13 @@ h1 {
     height: 450px;
     overflow: hidden;
 }
-.carousel-indicators > li {
+.carousel-indicators.gr > li {
     border-color: #333;
 }
-.carousel-indicators > li.active {
+.carousel-indicators.gr > li.active {
     background-color: #333;
 }
-.carousel-control, .carousel-control:hover {
+.carousel-control.gr, .carousel-control.gr:hover {
     color: #333;
     background: none !important;
     opacity: 1;
