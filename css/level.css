@@ -1,3 +1,9 @@
+/*!
+ * Level - Recording Studio (link)
+ * Design by André Sontag Artigas
+ * Code by Kevin Katzer
+ */
+
 @import url(http://fonts.googleapis.com/css?family=Rokkitt);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
  body {
@@ -54,13 +60,9 @@ h1 {
 .carousel {
     margin: 0 0 50px 0;
 }
-.carousel, .carousel-inner, .item {
-    height: 450px;
+.carousel {
+    max-height: 460px;
     overflow: hidden;
-}
-.item img {
-    margin: auto;
-    height: 100%;
 }
 #map {
     width: 100%;
