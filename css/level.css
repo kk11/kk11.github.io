@@ -70,6 +70,11 @@ h1 {
 .carousel-indicators > li.active {
     background-color: #333;
 }
+.carousel-control, .carousel-control:hover {
+    color: #333;
+    background: none !important;
+    opacity: 1;
+}
 .item img {
     margin: auto;
 }
