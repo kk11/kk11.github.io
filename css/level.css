@@ -54,8 +54,8 @@ h1 {
 .carousel {
     margin: 0 0 50px 0;
 }
-.carousel {
-    max-height: 450px;
+.carousel, .carousel-inner, .item {
+    height: 450px;
     overflow: hidden;
 }
 .item img {
