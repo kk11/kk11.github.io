@@ -64,6 +64,9 @@ h1 {
     height: 450px;
     overflow: hidden;
 }
+.carousel.gr {
+    height: 558px;
+}
 .carousel-indicators.gr > li {
     border-color: #333;
 }
