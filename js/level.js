@@ -1,4 +1,6 @@
 function initMap() {
+    $('#map').height($('#map').width()*0.6);
+
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
         center: new google.maps.LatLng(-25.3812294, -49.2216299),
