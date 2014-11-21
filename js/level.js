@@ -41,6 +41,11 @@ function initNav(scroll) {
             $('#navbar').collapse('hide');
         }
     }
+    if (scroll > (($('.carousel').offset().top + $('.carousel').height()) - $(window).height()) && (scroll < (($('.carousel').offset().top)))){
+        $('.carousel').carousel({
+            interval:3500
+        });
+    }
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);
@@ -112,8 +117,8 @@ $(document).ready(function () {
 });
 
 
-//Has Flash?//
-if (!((typeof navigator.plugins != "undefined" && typeof navigator.plugins["Shockwave Flash"] == "object") || (window.ActiveXObject && (new ActiveXObject("ShockwaveFlash.ShockwaveFlash")) != false))) {
-    $('.video .embed-responsive').css('display', 'none');
-    $('.video .hidden').css('display', 'block');
-}
+// //Has Flash?//
+// if (!((typeof navigator.plugins != "undefined" && typeof navigator.plugins["Shockwave Flash"] == "object") || (window.ActiveXObject && (new ActiveXObject("ShockwaveFlash.ShockwaveFlash")) != false))) {
+//     $('.video .embed-responsive').css('display', 'none');
+//     $('.video .hidden').css('display', 'block');
+// }

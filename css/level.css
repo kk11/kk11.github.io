@@ -62,10 +62,13 @@ h1 {
 }
 .carousel {
     max-height: 450px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
-.carousel.gr {
+#carousel.gr {
     max-height: 558px;
+}
+.carousel-indicators.gr {
+    bottom: -35px;
 }
 .carousel-indicators.gr > li {
     border-color: #333;
